@@ -1,0 +1,227 @@
+html {
+font-family: 'Maven Pro', sans-serif;
+}
+
+.header {
+	background-image: url(Header%20Background.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+	
+}
+
+.nav-header {
+	display: flex;
+	margin: 50px;
+}
+
+.logo {
+	width: 30%;	
+	color: white;
+	font-size: 30px;
+	letter-spacing: 5px;
+	display: flex;
+
+}
+
+.logo-text {
+	font-style: bold;
+	margin: 10px;
+}
+
+.nav-header ul {
+	text-align: right;
+	width: 70%;
+	list-style: none;
+}
+
+.nav-header ul li {
+	display: inline-block;
+	padding-left: 20px;
+	color: white;
+}
+
+.nav-header ul li:last-child {
+	padding-left: 60px;
+}
+
+.caption {
+	text-align: center;
+	color: white;
+	margin-bottom: 100px;
+}
+
+.caption h1 {
+	font-size: 86px;
+	margin: 45px 0;
+}
+
+.subtitle span {
+	font-size: 14px;
+}
+
+.subtitle span::after {
+	content: "";
+	width: 20px;
+	height: 1px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.subtitle span::before {
+	content: "";
+	width: 20px;
+	height: 1px;
+	background-color: white;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.description {
+	margin: 0 35%;
+}
+
+.header-arrow {
+	width: 65px;
+	height: 65px;
+	background-color: white;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 47%;
+	box-shadow: 0 0 10px #000;
+}
+
+.btt {
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 100px;
+}
+
+.features {
+	background-color: #f9fafc;
+	width: 100%;
+	height: 140vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.misocial {
+	color: #9fa4af;
+	font-size: 14px;
+}
+
+
+.misocial::after {
+	content: "";
+	width: 20px;
+	height: 1px;
+	background-color: #6e45e2;
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.misocial::before {
+	content: "";
+	width: 20px;
+	height: 1px;
+	background-color: #6e45e2;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+hgroup h2 {
+	font-size: 60px;
+	color: #4f4f6f;
+	margin: 40px 0;
+}
+
+hgroup .text-features{
+	color: #b6bac2;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.rates {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+}
+
+.item {
+	width: 300px;
+	height: 500px;
+	background-color: #fff;
+	border: 1px solid #d7dbe8;
+	border-radius: 15px;
+	padding: 40px 0;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.caption-item {
+	font-size: 14px;
+	color: #9fa4af;
+	font-weight: bold;
+}
+
+.price {
+	color: #4f4f6f;
+}
+
+.price span{
+	font-size: 60px;
+}
+
+sup {
+	top: -2.5em;
+}
+
+.item-text {
+	color: #d3d3d6;
+	margin: 0 10%;
+}
+
+.but-item {
+	margin-top: 20px;
+	width: 190px;
+	height: 50px;
+	border-radius: 100px;
+	border: 1px solid #d7dbe8;
+	background-color: rgba(0,0,0,0);
+	box-shadow: 0 0 10px #d7dbe8;
+}
+
+.item:hover {
+	box-shadow: 0 0 30px #000;
+}
+
+.but-item:hover {
+	background-color: #6e45e2;
+	color: #fff;
+}
+
+.cry {
+	width: 100%;
+	height: 80vh;
+	background-image: url(cry.png);
+	background-size: cover;
+	background-position: center;
+}
